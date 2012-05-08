@@ -2,3 +2,7 @@
 pkg
 doc/
 Gemfile.lock
+
+# vi stuff
+*.vim*
+tags
