@@ -1,6 +1,4 @@
+.*
 pkg
-*.rbc
-.redcar
 doc/
-.yardoc/
 Gemfile.lock
