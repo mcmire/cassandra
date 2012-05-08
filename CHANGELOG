@@ -1,7 +1,12 @@
+v0.12.3
+- Fix gemspec so that it includes the proper files for the composite column names feature
+
 v0.12.2
 - Respect the start_key in get_range. Resolves Issue #127.
-- Fix issue with differences in gemspec and what is required. Resolves Issue #125.
-- Update to Cassandra 0.8.7 and 1.0.2.
+- Fix issue with differences in gemspec and what is required wrt thrift_client. Resolves Issue #125.
+- Update to Cassandra 0.8.7 and 1.0.6.
+- Add support for timestamps to Cassandra::Mock
+- Add initial support for composite column names
 
 v0.12.1
 - Fix issue with simple_uuid dependency.
